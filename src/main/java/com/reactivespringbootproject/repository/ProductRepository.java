@@ -1,6 +1,6 @@
-package com.reactivespringtest.reactivespringtest.repository;
+package com.reactivespringbootproject.repository;
 
-import com.reactivespringtest.reactivespringtest.entity.ProductEntity;
+import com.reactivespringbootproject.entity.ProductEntity;
 import org.springframework.data.domain.Range;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.stereotype.Repository;

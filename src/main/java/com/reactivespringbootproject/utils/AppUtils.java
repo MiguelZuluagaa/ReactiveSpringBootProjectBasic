@@ -1,7 +1,7 @@
-package com.reactivespringtest.reactivespringtest.utils;
+package com.reactivespringbootproject.utils;
 
-import com.reactivespringtest.reactivespringtest.dto.ProductDto;
-import com.reactivespringtest.reactivespringtest.entity.ProductEntity;
+import com.reactivespringbootproject.dto.ProductDto;
+import com.reactivespringbootproject.entity.ProductEntity;
 import org.springframework.beans.BeanUtils;
 
 public class AppUtils {

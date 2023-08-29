@@ -1,4 +1,4 @@
-package com.reactivespringtest.reactivespringtest.entity;
+package com.reactivespringbootproject.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.reactivespringtest.reactivespringtest.dto;
+package com.reactivespringbootproject.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

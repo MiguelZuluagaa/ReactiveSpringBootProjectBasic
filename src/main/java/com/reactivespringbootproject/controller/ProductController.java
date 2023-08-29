@@ -1,7 +1,7 @@
-package com.reactivespringtest.reactivespringtest.controller;
+package com.reactivespringbootproject.controller;
 
-import com.reactivespringtest.reactivespringtest.dto.ProductDto;
-import com.reactivespringtest.reactivespringtest.service.ProductService;
+import com.reactivespringbootproject.dto.ProductDto;
+import com.reactivespringbootproject.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;

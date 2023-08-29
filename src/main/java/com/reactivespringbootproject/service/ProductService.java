@@ -1,9 +1,8 @@
-package com.reactivespringtest.reactivespringtest.service;
+package com.reactivespringbootproject.service;
 
-import com.reactivespringtest.reactivespringtest.dto.ProductDto;
-import com.reactivespringtest.reactivespringtest.entity.ProductEntity;
-import com.reactivespringtest.reactivespringtest.repository.ProductRepository;
-import com.reactivespringtest.reactivespringtest.utils.AppUtils;
+import com.reactivespringbootproject.dto.ProductDto;
+import com.reactivespringbootproject.utils.AppUtils;
+import com.reactivespringbootproject.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Range;
 import org.springframework.stereotype.Service;
