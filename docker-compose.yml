@@ -1,0 +1,19 @@
+version: "3"
+services:
+  java-app:
+    container_name: java_app
+    image: java-app:latest
+    build: .
+    ports:
+      - 8080:8080
+    environment:
+      DB_HOST: mongodbcontainer
+      DB_SCHEMA: products
+      DB_PORT: 27017
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:latest
+    container_name: mongodbcontainer
+    ports:
+      - 27017:27017

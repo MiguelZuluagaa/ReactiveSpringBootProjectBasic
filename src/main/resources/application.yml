@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      database: ${DB_SCHEMA}
+      host: ${DB_HOST}
+      port: ${DB_PORT}
+
+server:
+  port: 8080
